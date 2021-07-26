@@ -33,5 +33,3 @@ spec:
           echo "ERROR: manifests.yaml not generated"
           exit 1
         fi
-        cd ..
-        ls

@@ -20,8 +20,6 @@ spec:
       script: |
         #!/bin/sh
         cd source
-        ls
-        ls k8s
         set -e
         APP_NAMESPACE="$(params.app-namespace)"
         echo -e "Deploying into: ${APP_NAMESPACE}"
