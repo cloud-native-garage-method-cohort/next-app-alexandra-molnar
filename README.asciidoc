@@ -1,0 +1,6 @@
+# Tasks
+- create npm task:
+[source,bash]
+----
+kubectl apply -f https://raw.githubusercontent.com/tektoncd/catalog/main/task/npm/0.1/npm.yaml
+----
