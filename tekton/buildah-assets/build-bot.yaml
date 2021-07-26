@@ -1,0 +1,15 @@
+apiVersion: v1
+imagePullSecrets:
+- name: build-bot-dockercfg-ksq9t
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2021-07-26T22:16:46Z"
+  name: build-bot
+  namespace: alexandra-molnar-next-app
+  resourceVersion: "7452996"
+  selfLink: /api/v1/namespaces/alexandra-molnar-next-app/serviceaccounts/build-bot
+  uid: 9d03e6cb-b0e1-474f-ab28-3c8538159049
+secrets:
+- name: build-bot-token-pnsrc
+- name: build-bot-dockercfg-ksq9t
+- name: quay-io-credentials
